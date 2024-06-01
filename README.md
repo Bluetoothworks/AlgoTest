@@ -51,26 +51,10 @@ The algorithm uses dynamic programming with memoization to determine if Abhimany
 
 4. **Memoization**:
    - Store the result in `dpp` to avoid recomputation of the same subproblem.
-  
-### Constraints
-
-- \(1 \leq \text{Power of each enemy} \leq 1000\)
-- \(1 \leq \text{Initial power of Abhimanyu} \leq 2000\)
-- \(1 \leq \text{Number of skips (a)} \leq 10\)
-- \(1 \leq \text{Number of recharges (b)} \leq 10\)
 
 ### Time Complexity
 
-The time complexity of the algorithm is \(O(n \times b \times a)\), where:
-- \(n\) is the number of circles (in this case, 11).
-- \(b\) is the number of recharges.
-- \(a\) is the number of skips.
-
-Since \(n = 11\), \(b \leq 10\), and \(a \leq 10\), the algorithm runs in constant time for the given problem size.
-
-### Space Complexity
-
-The space complexity is \(O(n \times (b+1) \times (a+1))\) due to the memoization table `dpp` of size \([n][b+1][a+1]\).
+The time complexity of the algorithm is ***O(n(log n))***
 
 ## Implementation
 
