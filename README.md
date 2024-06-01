@@ -1,4 +1,4 @@
-```markdown
+
 # Abhimanyu in Chakravyuha
 
 This project implements an algorithm to determine if Abhimanyu can cross all 11 circles in a Chakravyuha while facing various enemies with different power levels. Abhimanyu starts from the innermost circle and has to cross all 11 circles to reach the Pandavas' army back.
@@ -144,4 +144,3 @@ Feel free to open issues or submit pull requests if you have suggestions for imp
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
